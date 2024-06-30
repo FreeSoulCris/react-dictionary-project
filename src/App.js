@@ -8,7 +8,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" ></img>
       </header>
       <body>
-        Dictionary
+        <div>
+        <p>Dictionary</p>
+        </div>
+        
       </body>
     </div>
   );
