@@ -2,3 +2,7 @@
     border-radius: 4px;
     margin-bottom: 20px;
 }
+
+.PhotoGallery img:hover {
+    transform: scale(1.1); /* Agranda la imagen un 10% */
+}

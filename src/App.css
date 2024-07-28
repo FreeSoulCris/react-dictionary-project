@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
 body{
-  background: #f4eeee;
+  background: #f7f0f0;
   max-width: 960px;
   margin:0 auto;
+  font-family: "Unbounded", sans-serif;
 }
 
 .App-header{
@@ -17,6 +20,11 @@ body{
 .App-footer{
   text-align: center;
   margin: 30px 0;
+  font-size: 12px;
+}
+.App-footer a {
+  color: deeppink;
+  text-decoration: none;
 }
 
 
