@@ -19,9 +19,11 @@ margin-bottom: 20px;
     border-radius: 6px;
     color: #DD7844;
     text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .Dictionary .hint{
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 10px;
 }
