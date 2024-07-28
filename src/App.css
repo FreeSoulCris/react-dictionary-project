@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
 body{
-  background: #f7f0f0;
+  background:
+      radial-gradient(27% 29% at right, #0000 83%,#fdd8ef 85% 99%,#0000 101%) calc(17px/2) 17px,
+      radial-gradient(27% 29% at left, #0000 83%,#fdd8ef 85% 99%,#0000 101%) calc(17px/-2) 17px,
+      radial-gradient(29% 27% at top, #0000 83%,#fdd8ef 85% 99%,#0000 101%) 0 calc(17px/2),
+      radial-gradient(29% 27% at bottom, #0000 83%,#fdd8ef 85% 99%,#0000 101%) 0 calc(17px/-2)
+      #f1f1f1;
+  background-size: 34px 34px;
   max-width: 960px;
   margin:0 auto;
   font-family: "Unbounded", sans-serif;
