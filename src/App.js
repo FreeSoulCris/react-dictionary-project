@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" ></img>
       </header>
       <main>
-        <Dictionary/>
+        <Dictionary defaultKeyword="sunset"/>
       </main>
       <footer className="App-footer">
           This project was coded by {" "}<a href="https://www.instagram.com/freesoulcriss/" target="_blank" rel=" noopener noreferrer">Cristina Jimenez</a>, is open-sourced on {" "}

@@ -1,0 +1,26 @@
+.Meaning section{
+    margin-top: 20px;
+}
+
+.Meaning h4{
+    color:#ef959c;
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Meaning p{
+    
+    text-transform: capitalize;
+    
+}
+
+.Meaning .Example{
+    font-size: 12px;
+    opacity: 0.8;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: -15px;
+
+}

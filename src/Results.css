@@ -1,0 +1,17 @@
+.Results h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: rgb(221, 120, 68);
+    text-transform: capitalize;
+}
+
+.Results .Phonetics{
+font-size: 24px;
+color: rgba(221, 120, 68, 0.6);
+margin-top: -15px;
+}
+
+.Results .section{
+    margin: 10px;
+}

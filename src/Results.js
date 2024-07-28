@@ -1,5 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning";
+import "./Results.css";
 
 
 export default function Results(props){
@@ -7,14 +8,17 @@ export default function Results(props){
 if (props.results){
         return (
         <div className="Results">
-            <br/>   
-            <h2>{props.results.word}</h2>
-            <em>{props.results.phonetic}</em>
+            <br/>
+            <section>   
+                <h2>{props.results.word}</h2>
+                <div className="Phonetics"><span>🔉<em>{props.results.phonetic}</em></span>
+                </div>
+            </section>
             {props.results.meanings.map(function(meanings, index){
                 return (
-               <div key={index}>
+               <section key={index}>
                 <Meaning meaning ={meanings}/>
-                </div>
+                </section>
                 );
                 
             })}
